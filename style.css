@@ -34,7 +34,7 @@ body{
     font-size: 30px;
     font-weight: 750;
     letter-spacing: 0.03em;
-    color:  #00b9f7;
+    color: var(--main-color);
     margin: 20px 0px;
 }
 .row h2{
@@ -42,7 +42,7 @@ body{
   font-size: 30px;
   font-weight: 750;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color :white;
   margin: 20px 0px;
 }
 /* theme settings */
@@ -464,7 +464,8 @@ body{
 
 @media screen and (max-width:750px){
   .container   h1{
-    font-size: 23px;
+    font-size: 20px;
+    text-align: justify;
   }
   .timer{
     flex-wrap:wrap;
